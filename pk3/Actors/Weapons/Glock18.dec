@@ -2,11 +2,12 @@
 ACTOR Glock18 : weapon Replaces Pistol
 {
   obituary "%o was Killed by %k's Glock."
-  attacksound "Weapons/GLOKFIR"
+  AttackSound "Weapons/GLOKFIR"
   decal BulletChip
   Weapon.SlotNumber 2
   Weapon.Kickback 50
   inventory.pickupmessage "You got the Glock!"
+  Weapon.UpSound "Weapons/GLOKRED"
   Weapon.AmmoType "Clip"
   Weapon.AmmoUse 1
   Weapon.AmmoGive 25
