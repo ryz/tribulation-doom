@@ -1,0 +1,39 @@
+//=========
+// Casings
+//=========
+
+ACTOR BulletCasing
+{
+	Radius 3
+	Scale 0.18
+	+MISSILE
+    +CLIENTSIDEONLY
+	+NOTELEPORT	
+	+DOOMBOUNCE
+	+THRUACTORS
+	+DROPOFF
+	BounceFactor 0.5
+	WallBounceFactor 0.25
+	BounceCount 3
+	Seesound "weapons/casing1"
+	States
+	{
+	Spawn:
+	  TNT1 A 0
+//      TNT1 A 0 A_JumpIf(ACS_ExecuteWithResult(304) == 1, "Toaster")
+	  CAS2 ABCDEFGH 2
+	  Loop
+    Death:
+	  TNT1 A 0
+      TNT1 A 0 A_Jump(128,3)
+      CAS2 C 100
+      CAS2 C 5 A_FadeOut(0.10)
+      Goto Death+3
+      CAS2 G 100
+	  CAS2 G 5 A_FadeOut(0.10)
+	  Goto Death+5
+//  Toaster:
+//	  TNT1 A 0
+//	  Stop
+	  }
+}
