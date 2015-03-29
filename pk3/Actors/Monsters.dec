@@ -1,6 +1,9 @@
-//Zombies
+// Zombies
 #INCLUDE "Actors/Monsters/PlasmaZombie.dec"
 #INCLUDE "Actors/Monsters/QuadShotgunZombie.dec"
 
 // Imps
 #INCLUDE "Actors/Monsters/SoulHarvester.dec"
+
+// Demons
+#INCLUDE "Actors/Monsters/BloodFiend.dec"

@@ -12,6 +12,7 @@ QuadShotgunZombie/Reload1	QSGZREL1
 QuadShotgunZombie/Reload2	QSGZREL2
 QuadShotgunZombie/Reload3	QSGZREL3
 
+
 // Soul Harvester - Imp
 
 $RANDOM harvester/sight { shsight1 shsight2 }
@@ -25,3 +26,11 @@ shdeath2 shdeath2
 harvester/scream shfbscrm
 harvester/ghost shghscrm
 
+
+// Blood Fiend - Demon
+
+monster/sg2sit dssg2sit
+monster/sg2atk dssg2atk
+
+weapons/bloodf dsbloodf
+weapons/bloodx dsbloodx

@@ -2,6 +2,7 @@
 // Needed to avoid creating a recursion with the spawner spawning a copy of itself if it selects *gulp* itself
 ACTOR TZombieMan : ZombieMan {}
 ACTOR TDoomImp : DoomImp {}
+ACTOR TDemon : Demon {}
 
 ACTOR SpawnerZombieman : RandomSpawner Replaces Zombieman
 {
@@ -12,6 +13,12 @@ ACTOR SpawnerZombieman : RandomSpawner Replaces Zombieman
 
 ACTOR SpawnerDoomImp : RandomSpawner Replaces DoomImp
 {
-	DropItem "TDoomImp", 256, 50
+	DropItem "TDoomImp", 256, 50 
 	DropItem "SoulHarvester", 256, 50
+}
+
+ACTOR SpawnerDemon : RandomSpawner Replaces Demon
+{
+	DropItem "TDemon", 256, 50 
+	DropItem "BloodFiend", 256, 50
 }
