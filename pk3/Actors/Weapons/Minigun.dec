@@ -4,6 +4,7 @@ ACTOR STMinigun : Weapon 20039
 	Weapon.AmmoGive 20
 	Weapon.AmmoUse 1
 	Weapon.SlotNumber 4
+	decal BulletChip
 	Inventory.PickupSound "misc/w_pkup"
 	Inventory.PickupMessage "Picked up a minigun!"
 	Obituary "%o was shredded by %k's minigun."
