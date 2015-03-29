@@ -1,0 +1,12 @@
+// Monsters
+
+PointLight PlasmaZombieAttack
+{
+	Color 0.0 0.0 1.0
+	Size 28
+}
+
+Object PlasmaZombie
+{
+	Frame ZMAYF { Light PlasmaZombieAttack }
+}
