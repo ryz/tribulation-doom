@@ -1,5 +1,8 @@
 // Zombies
 #INCLUDE "Actors/Monsters/PlasmaZombie.dec"
+
+// Shotgun Guys
+#INCLUDE "Actors/Monsters/ASGGuy.dec"
 #INCLUDE "Actors/Monsters/QuadShotgunZombie.dec"
 
 // Imps

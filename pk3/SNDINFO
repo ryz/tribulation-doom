@@ -12,6 +12,13 @@ QuadShotgunZombie/Reload1	QSGZREL1
 QuadShotgunZombie/Reload2	QSGZREL2
 QuadShotgunZombie/Reload3	QSGZREL3
 
+// Auto Shotgun Guy
+
+asgguy/asgfir dsasgfir
+asgguy/asgout dsasgout
+asgguy/asgin dsasgin
+asgguy/asgld1 dsasgld1
+
 
 // Soul Harvester - Imp
 

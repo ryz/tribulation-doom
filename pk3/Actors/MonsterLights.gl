@@ -726,3 +726,70 @@ BrightMap Sprite SAR2W0
 Map BMSAR2W0
 DisableFullBright
 }
+
+
+// ===================
+// Auto Shotgun Guy
+// ===================
+
+PointLight ASGGuyAttack
+{
+Color 1.0 0.8 0.2
+Size 30
+}
+
+Object ASGGuy
+{
+Frame ASGZF { Light ASGGuyAttack }
+}
+
+//Brightmaps
+
+BrightMap Sprite ASGZE1
+{
+Map BMASGZE1
+DisableFullBright
+}
+
+BrightMap Sprite ASGZE2E8
+{
+Map BMASGZE2
+DisableFullBright
+}
+
+BrightMap Sprite ASGZE3E7
+{
+Map BMASGZE3
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF1
+{
+Map BMASGZF1
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF2F8
+{
+Map BMASGZF2
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF3F7
+{
+Map BMASGZF3
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF4F6
+{
+Map BMASGZF4
+DisableFullBright
+}
+
+BrightMap Sprite ASGZF5
+{
+Map BMASGZF5
+DisableFullBright
+}
+
