@@ -16,4 +16,4 @@ SET PK3DIR=.\pk3\*
 7za a -tzip "%ARCHIVENAME%-%DATESTAMP%.pk3" %PK3DIR%
 move *.pk3 ..\
 
-pause
+REM pause
