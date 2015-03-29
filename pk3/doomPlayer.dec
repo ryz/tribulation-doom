@@ -6,7 +6,7 @@ ACTOR TribulationDoomPlayer : DoomPlayer
 	Height 56
 	Mass 100
 	PainChance 255
-	Player.StartItem "Pistol"
+	Player.StartItem "Glock18"
 	Player.StartItem "Fist"
 	Player.StartItem "Clip", 50
 	Player.StartItem "Shotgun"

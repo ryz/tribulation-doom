@@ -1,3 +1,4 @@
 #INCLUDE "Actors/monsters.dec"
 #INCLUDE "Actors/monsterSpawner.dec"
 #INCLUDE "doomPlayer.dec"
+#INCLUDE "Weapons.dec"
