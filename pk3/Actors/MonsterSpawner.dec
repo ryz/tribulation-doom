@@ -5,5 +5,6 @@ ACTOR TZombieMan : ZombieMan {}
 ACTOR SpawnerZombieman : RandomSpawner Replaces Zombieman
 {
 	DropItem "TZombieMan", 256, 70
+	DropItem "QuadShotgunZombie" 256, 50
 	DropItem "PlasmaZombie", 256, 30
 }

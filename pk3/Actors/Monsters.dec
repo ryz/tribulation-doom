@@ -1,1 +1,2 @@
 #INCLUDE "Actors/Monsters/PlasmaZombie.dec"
+#INCLUDE "Actors/Monsters/QuadShotgunZombie.dec"

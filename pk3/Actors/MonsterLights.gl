@@ -1,4 +1,8 @@
+// ==================
 // Monsters
+// ==================
+
+// Plasma Zombie
 
 PointLight PlasmaZombieAttack
 {
@@ -9,4 +13,21 @@ PointLight PlasmaZombieAttack
 Object PlasmaZombie
 {
 	Frame ZMAYF { Light PlasmaZombieAttack }
+}
+
+
+// Quad-Shotgun Zombie
+
+FlickerLight2 QuadShotgunZombie
+{
+Color 1.0 0.8 0.2
+Size 48
+SecondarySize 56
+Interval 1
+Offset 0 28 0
+}
+
+Object QuadShotgunZombie
+{
+Frame QSZMF { Light QuadShotgunZombie }
 }
