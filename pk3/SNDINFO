@@ -47,8 +47,13 @@ weapons/bloodx dsbloodx
 // Weapons
 // ==================
 
+// Glock 18
 Weapons/GLOKFIR  GLOKFIR
 Weapons/GLOKRED	 GLOKRED
+
+// Minigun
+weapons/minigunfire DSMINIGN
+
 
 //Bullet Casing
 $random weapons/casing1	{ weapons/bullet1 weapons/bullet2 weapons/bullet3 weapons/bullet4 }
