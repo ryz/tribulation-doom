@@ -48,3 +48,11 @@ weapons/bloodx dsbloodx
 // ==================
 
 Weapons/GLOKFIR  GLOKFIR
+Weapons/GLOKRED	 GLOKRED
+
+//Bullet Casing
+$random weapons/casing1	{ weapons/bullet1 weapons/bullet2 weapons/bullet3 weapons/bullet4 }
+weapons/bullet1			dscasing
+weapons/bullet2			dscasin2
+weapons/bullet3			dscasin3
+weapons/bullet4			dscasin4
