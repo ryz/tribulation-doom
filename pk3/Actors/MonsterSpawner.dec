@@ -7,15 +7,19 @@ ACTOR TDemon : Demon {}
 
 ACTOR SpawnerZombieman : RandomSpawner Replaces Zombieman
 {
+	Species "Zombie"
+	+DONTHURTSPECIES
 	DropItem "TZombieMan", 256, 70
 	DropItem "PlasmaZombie", 256, 30
 }
 
 ACTOR SpawnerShotgunGuy : RandomSpawner Replaces ShotgunGuy
 {
-	//DropItem "TShotgunGuy", 256, 70
+	Species "Zombie"
+	+DONTHURTSPECIES
+	DropItem "TShotgunGuy", 256, 70
 	DropItem "ASGGuy", 256, 70
-	//DropItem "QuadShotgunZombie" 256, 50
+	DropItem "QuadShotgunZombie" 256, 50
 }
 
 ACTOR SpawnerDoomImp : RandomSpawner Replaces DoomImp
