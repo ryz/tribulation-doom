@@ -6,8 +6,10 @@ Actor VulcanMinigun : Weapon
    Weapon.AmmoGive 20
    Weapon.SlotNumber 4
    Weapon.AmmoType "Clip"
+   Weapon.UpSound "weapons/minigunpickup"
    decal BulletChip
    Inventory.PickupMessage "You got the Vulcan Minigun" // "You got the chaingun"
+   Inventory.PickupSound "weapons/minigunpickup"
    Obituary "%o was mowed down by %k's Vulcan Minigun."
    //Tag "$TAG_CHAINGUN"
    AttackSound "weapons/minigunfire"

@@ -53,7 +53,7 @@ Weapons/GLOKRED	 GLOKRED
 
 // Minigun
 weapons/minigunfire DSMINIGN
-
+weapons/minigunpickup 		dsmngup
 
 //Bullet Casing
 $random weapons/casing1	{ weapons/bullet1 weapons/bullet2 weapons/bullet3 weapons/bullet4 }
