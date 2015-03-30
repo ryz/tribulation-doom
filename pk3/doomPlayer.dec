@@ -7,6 +7,8 @@ ACTOR TribulationDoomPlayer : DoomPlayer
 	Mass 100
 	PainChance 255
 	Player.StartItem "Glock18"
+	//Player.StartItem "STMinigun"
+	Player.StartItem "VulcanMinigun"
 	Player.StartItem "Fist"
 	Player.StartItem "Clip", 50
 	Player.StartItem "Shotgun"
