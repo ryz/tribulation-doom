@@ -4,6 +4,7 @@ ACTOR TZombieMan : ZombieMan {}
 ACTOR TShotgunGuy : ShotgunGuy {}
 ACTOR TDoomImp : DoomImp {}
 ACTOR TDemon : Demon {}
+ACTOR TMancubus : Fatso {}
 
 ACTOR SpawnerZombieman : RandomSpawner Replaces Zombieman
 {
@@ -32,4 +33,10 @@ ACTOR SpawnerDemon : RandomSpawner Replaces Demon
 {
 	DropItem "TDemon", 256, 50 
 	DropItem "BloodFiend", 256, 50
+}
+
+ACTOR SpawnerMancubus : RandomSpawner Replaces Fatso
+{
+	DropItem "TMancubus", 256, 50
+	DropItem "Hectebus", 256, 50
 }

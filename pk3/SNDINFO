@@ -43,6 +43,23 @@ weapons/bloodf dsbloodf
 weapons/bloodx dsbloodx
 
 
+// Hectebus - Mancubus
+
+Hectebus/Sight		DSHECSIT
+Hectebus/Pain		DSHCPAIN
+Hectebus/Death		DSHECDTH
+Hectebus/Active		DSHECACT
+$Random hectebus/attack	{ HectAtk1 HectAtk2 }
+HectAtk1		DSHECATK
+HectAtk2		DSHCATK2
+$Random hectebus/step { HectStp1 HectStp2 HectStp3 HectStp4 HectStp5 }
+HectStp1		DSHECST1
+HectStp2		DSHECST2
+HectStp3		DSHECST3
+HectStp4		DSHECST4
+HectStp5		DSHECST5
+
+
 // ==================
 // Weapons
 // ==================

@@ -10,3 +10,6 @@
 
 // Demons
 #INCLUDE "Actors/Monsters/BloodFiend.dec"
+
+// Mancubi
+#INCLUDE "Actors/Monsters/Hectebus.dec"
