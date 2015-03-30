@@ -9,7 +9,7 @@ SET "HH=%dt:~8,2%" & SET "Min=%dt:~10,2%" & SET "Sec=%dt:~12,2%"
 SET "FULLSTAMP=%YYYY%-%MM%-%DD%_%HH%-%Min%-%Sec%"
 SET "DATESTAMP=%YYYY%-%MM%-%DD%"
 
-SET ARCHIVENAME=trib_dev
+SET ARCHIVENAME=tribulation_dev
 SET PK3DIR=.\pk3\*
 
 
