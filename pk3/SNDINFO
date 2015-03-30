@@ -52,8 +52,11 @@ Weapons/GLOKFIR  GLOKFIR
 Weapons/GLOKRED	 GLOKRED
 
 // Minigun
-weapons/minigunfire DSMINIGN
+weapons/mgunspinstart		DSMINSTA
+weapons/mgunspin			DSMINSPI
+weapons/mgunspinstop		DSMINSTO
 weapons/minigunpickup 		dsmngup
+weapons/minigunfire 		DSMINIGN
 
 //Bullet Casing
 $random weapons/casing1	{ weapons/bullet1 weapons/bullet2 weapons/bullet3 weapons/bullet4 }
