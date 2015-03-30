@@ -1,0 +1,42 @@
+
+// Needed to avoid creating a recursion with the spawner spawning a copy of itself if it selects *gulp* itself
+ACTOR TZombieMan : ZombieMan {}
+ACTOR TShotgunGuy : ShotgunGuy {}
+ACTOR TDoomImp : DoomImp {}
+ACTOR TDemon : Demon {}
+ACTOR TMancubus : Fatso {}
+
+ACTOR SpawnerZombieman : RandomSpawner Replaces Zombieman
+{
+	Species "Zombie"
+	+DONTHURTSPECIES
+	DropItem "TZombieMan", 256, 70
+	DropItem "PlasmaZombie", 256, 30
+}
+
+ACTOR SpawnerShotgunGuy : RandomSpawner Replaces ShotgunGuy
+{
+	Species "Zombie"
+	+DONTHURTSPECIES
+	DropItem "TShotgunGuy", 256, 70
+	DropItem "ASGGuy", 256, 70
+	DropItem "QuadShotgunZombie" 256, 50
+}
+
+ACTOR SpawnerDoomImp : RandomSpawner Replaces DoomImp
+{
+	DropItem "TDoomImp", 256, 50 
+	DropItem "SoulHarvester", 256, 50
+}
+
+ACTOR SpawnerDemon : RandomSpawner Replaces Demon
+{
+	DropItem "TDemon", 256, 50 
+	DropItem "BloodFiend", 256, 50
+}
+
+ACTOR SpawnerMancubus : RandomSpawner Replaces Fatso
+{
+	DropItem "TMancubus", 256, 50
+	DropItem "Hectebus", 256, 50
+}

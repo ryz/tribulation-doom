@@ -1,0 +1,83 @@
+// ==================
+// Monsters
+// ==================
+
+// Quad-Shotgun Zombie
+
+$Random QuadShotgunZombie/SingleFire { QSGZFIR1 QSGZFIR2 }
+QSGZFIR1	QSGZFIR1
+QSGZFIR2	QSGZFIR2
+QuadShotgunZombie/QuadFire	QSGZFIR3
+QuadShotgunZombie/Reload1	QSGZREL1
+QuadShotgunZombie/Reload2	QSGZREL2
+QuadShotgunZombie/Reload3	QSGZREL3
+
+// Auto Shotgun Guy
+
+asgguy/asgfir dsasgfir
+asgguy/asgout dsasgout
+asgguy/asgin dsasgin
+asgguy/asgld1 dsasgld1
+
+
+// Soul Harvester - Imp
+
+$RANDOM harvester/sight { shsight1 shsight2 }
+shsight1 shsight1
+shsight2 shsight2
+
+$RANDOM harvester/death { shdeath1 shdeath2 }
+shdeath1 shdeath1
+shdeath2 shdeath2
+
+harvester/scream shfbscrm
+harvester/ghost shghscrm
+
+
+// Blood Fiend - Demon
+
+monster/sg2sit dssg2sit
+monster/sg2atk dssg2atk
+
+weapons/bloodf dsbloodf
+weapons/bloodx dsbloodx
+
+
+// Hectebus - Mancubus
+
+Hectebus/Sight		DSHECSIT
+Hectebus/Pain		DSHCPAIN
+Hectebus/Death		DSHECDTH
+Hectebus/Active		DSHECACT
+$Random hectebus/attack	{ HectAtk1 HectAtk2 }
+HectAtk1		DSHECATK
+HectAtk2		DSHCATK2
+$Random hectebus/step { HectStp1 HectStp2 HectStp3 HectStp4 HectStp5 }
+HectStp1		DSHECST1
+HectStp2		DSHECST2
+HectStp3		DSHECST3
+HectStp4		DSHECST4
+HectStp5		DSHECST5
+
+
+// ==================
+// Weapons
+// ==================
+
+// Glock 18
+Weapons/GLOKFIR  GLOKFIR
+Weapons/GLOKRED	 GLOKRED
+
+// Minigun
+weapons/mgunspinstart		DSMINSTA
+weapons/mgunspin			DSMINSPI
+weapons/mgunspinstop		DSMINSTO
+weapons/minigunpickup 		dsmngup
+weapons/minigunfire 		DSMINIGN
+
+//Bullet Casing
+$random weapons/casing1	{ weapons/bullet1 weapons/bullet2 weapons/bullet3 weapons/bullet4 }
+weapons/bullet1			dscasing
+weapons/bullet2			dscasin2
+weapons/bullet3			dscasin3
+weapons/bullet4			dscasin4
