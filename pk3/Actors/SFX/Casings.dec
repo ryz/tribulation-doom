@@ -37,7 +37,7 @@ Actor T_ShotgunCasing : T_CasingBase {
     States {
     Spawn:
       TNT1 A 0
-      REDC ABCDEFGH 2 //A_SpawnItem ("T_ShotSmokeTrail")
+      REDC ABCDEFGH 2 //A_SpawnItem ("T_ShotSmoke")
       Loop
     Death:
 	  TNT1 A 0

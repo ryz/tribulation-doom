@@ -10,3 +10,4 @@
 
 // SFX
 #INCLUDE "Actors/SFX/Casings.dec"
+#INCLUDE "Actors/SFX/Smoke.dec"

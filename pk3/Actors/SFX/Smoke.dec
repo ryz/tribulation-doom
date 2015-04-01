@@ -41,23 +41,6 @@ Actor T_BlackSmokeTrail : T_ShotSmokeTrail {
     Alpha 0.08
 }
 
-Actor T_SmokingPiece : T_DebrisGeneral { // Edited by Alex_Mercer
-    -NoGravity
-    Speed 12
-    Gravity 0.7
-    States {
-    Spawn:
-        TNT1 A 0
-        TNT1 A 0 A_JumpIf (waterLevel >= 1, "Water")
-        TNT1 A 1
-        TNT1 A 1 A_SpawnItem ("T_SmokingPieceSmoke")
-        Loop
-    Water:
-        TNT1 A 0
-        Stop
-    }
-}
-
 Actor T_SmokingPieceSmoke : T_ShotSmokeTrail {
     Scale 0.06
     Alpha 0.5
@@ -70,7 +53,7 @@ ACTOR T_ShotSmoke_2_Spawner { // By wildweasel, edited by Alex_Mercer
     Projectile
     States {
     Spawn:
-        TNT1 A 1
+        TNT1 A 2
         TNT1 A 0 A_Die
         Goto Death
     Death:
