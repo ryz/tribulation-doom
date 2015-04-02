@@ -40,8 +40,8 @@ ACTOR T_SuperShotgun : Shotgun
 		DSSG B 2 A_CheckReload
 		DSSG CD 2
 		DSSG E 2 A_PlaySound("weapons/erisshoto", CHAN_AUTO)
-		DSSG AA 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, 2, 4)
-        DSSG AA 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, 0, 4)
+		DSSG A 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, -7, -1)
+        DSSG A 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, -10, -1)
 		TNT1 A 0 A_FireCustomMissile("T_ShellCasingSpawn", 5, 0, 0, -15)
 		TNT1 A 0 A_FireCustomMissile("T_ShellCasingSpawn", 5, 0, 0, -15)
 		DSSG FGIJK 2
