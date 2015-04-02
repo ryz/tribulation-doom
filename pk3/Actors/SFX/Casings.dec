@@ -37,7 +37,7 @@ Actor T_ShotgunCasing : T_CasingBase {
     States {
     Spawn:
       TNT1 A 0
-      REDC ABCDEFGH 2 //A_SpawnItem ("T_ShotSmoke")
+      REDC ABCDEFGH 2 // A_SpawnItem ("T_ShotSmoke_2_Spawner") // Adds smoke trails to the casings, might be overkill
       Loop
     Death:
 	  TNT1 A 0
