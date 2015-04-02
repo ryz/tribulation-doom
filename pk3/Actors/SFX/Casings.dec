@@ -32,7 +32,10 @@ Actor T_ShellCasingSpawn : T_CasingSpawnerBase {
 Actor T_ShotgunCasing : T_CasingBase {
     Height 6
     Radius 3
-    Scale 0.25
+    Scale 0.22
+    BounceFactor 0.55
+    WallBounceFactor 0.2
+    BounceCount 4
     SeeSound "Weapons/casing2"
     States {
         Spawn:
@@ -41,7 +44,7 @@ Actor T_ShotgunCasing : T_CasingBase {
             Loop
         Death:
             TNT1 A 0
-            TNT1 A 0 A_Jump(256, "Rest1", "Rest2")
+            TNT1 A 0 A_Jump(256, "Rest1", "Rest2") // rest on either side
         Rest1:
             REDC C 600
             Goto Fade
