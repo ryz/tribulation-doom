@@ -62,9 +62,11 @@ ACTOR T_ShotSmoke_2_Spawner { // By wildweasel, edited by Alex_Mercer
     }
 }
 
-// DECORATE by Alex_Mercer. I dunno who made the sprites.
+// DECORATE by Alex_Mercer, modified by ryz. I dunno who made the sprites.
 Actor T_ShotSmoke_2 {
-    +NoInteraction +ForceXYBillboard +NoTimeFreeze
+    +NoInteraction +ForceXYBillboard +NoTimeFreeze 
+    // NoClip helps drawing the smoke sprite even when standing close to walls
+    +NoClip
     Renderstyle Add
     Alpha 0.3
     Scale 0.1
