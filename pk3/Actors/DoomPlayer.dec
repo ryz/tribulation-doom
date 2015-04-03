@@ -11,6 +11,7 @@ ACTOR TribulationDoomPlayer : DoomPlayer
 	Player.StartItem "VulcanMinigun"
 	Player.StartItem "Fist"
 	Player.StartItem "Clip", 50
-	Player.StartItem "Shotgun"
-	Player.StartItem "Shell", 8
+	Player.StartItem "T_SuperShotgun"
+	//Player.StartItem "Shotgun"
+	Player.StartItem "Shell", 50
 }

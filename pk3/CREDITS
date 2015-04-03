@@ -1,6 +1,36 @@
 Credits
 
 =============
+Special Thanks
+=============
+
+* Alex_Mercer: For answering endless questions and providing me with sprites/effects/code
+
+=============
+Sounds
+=============
+
+* A few weapon sounds from X-Weapon/Helsturm, thanks TheRailgunner
+* Some sounds from Complex Doom: Shell/Bullet casings
+* Some gun sounds are from soundbible.com
+
+
+=============
+Decorate
+=============
+
+* Casings code by Alex_Mercer, modified by ryz; Inspirations from Complex Doom/Daedalus
+* Smoke code by Jekyll Grim Payne/zer0 and Alex_Mercer, modified by ryz
+
+
+=============
+Sprites
+=============
+
+* Bullet/Shell casings from Complex Doom
+
+
+=============
 Plasma Zombie
 =============
 
@@ -97,3 +127,12 @@ MinigunV2 / Enhanced Chaingun
 Credits: ID Software, Eriance, Uboa and myself (Alex_Mercer).
 Sprites by Alex_Mercer aka phantombeta
 Decorate code inspired by Warchild_89 and Skulltag
+
+=============
+Super Shotgun
+=============
+
+Sprites: Eriance
+Decorate inspired by eriguns and Alex_Mercer
+
+
