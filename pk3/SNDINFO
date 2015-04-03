@@ -75,11 +75,15 @@ weapons/mgunspinstop		DSMINSTO
 weapons/minigunpickup 		dsmngup
 weapons/minigunfire 		DSMINIGN
 
-// Shotguns
-weapons/erisshotf			dsdshtgn
-weapons/erisshoto			dsdbopn
-weapons/erisshotc			dsdbcls
-weapons/erisshotl			dsdbload
+// Super Shotgun
+weapons/SSGReady1                       TSSGRDY1
+weapons/SSGShotDouble1                  TSSGFRD1
+weapons/SSGShotDouble2                  TSSGFRD2
+weapons/SSGShotSingle1                  TSSGFRS1
+weapons/SSGShotSingle2                  TSSGFRS2
+weapons/SSGOpen1                        TSSGOPN1
+weapons/SSGReload1                      dsdbload
+weapons/SSGClose1                       TSSGCLS1
 
 //Bullet Casing
 $random weapons/casing1	{ weapons/bullet1 weapons/bullet2 weapons/bullet3 weapons/bullet4 }
