@@ -68,21 +68,23 @@ ACTOR T_SuperShotgun : Weapon
 		DSSG E 2 A_PlaySound("weapons/SSGOpen1", CHAN_AUTO)
                 DSSG A 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, -10, -1) // Left barrel
 		DSSG A 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, -7, -1) // Right barrel
+		TNT1 A 0 A_PlaySound("weapons/SSGEject1", CHAN_AUTO)
 		TNT1 A 0 A_FireCustomMissile("T_ShellCasingSpawn", 5, 0, 0, -15)
 		TNT1 A 0 A_FireCustomMissile("T_ShellCasingSpawn", 5, 0, 0, -15)
 		DSSG FGHIJK 2
-		DSSG L 2 A_PlaySound("weapons/erisshotl", CHAN_AUTO)
+		DSSG L 2 A_PlaySound("weapons/SSGReload1", CHAN_AUTO)
 		DSSG MNOP 2
 	        Goto ReloadEnd
 	ReloadAlt: // Single barrel (right) reload
 		DSSG CD 2 A_ResetReloadCounter
-		DSSG E 2 A_PlaySoundEx("weapons/SSGOpen1", "Weapon")
+		DSSG E 2 A_PlaySound("weapons/SSGOpen1", CHAN_AUTO)
 		DSSG A 0 A_FireCustomMissile("T_ShotSmoke_2_Spawner", 0, 0, -7, -1) // Right barrel
+		TNT1 A 0 A_PlaySound("weapons/SSGEject1", CHAN_AUTO)
 		TNT1 A 0 A_FireCustomMissile("T_ShellCasingSpawn", 5, 0, 0, -15)
 		DSSG VWOP 2
 		Goto ReloadEnd
 	ReloadEnd: // barrel closing
-		DSSG Q 2 A_PlaySound("weapons/erisshotl", CHAN_AUTO)
+		DSSG Q 2 A_PlaySound("weapons/SSGReload1", CHAN_AUTO)
 		DSSG RS 2
 		DSSG T 2 A_PlaySound("weapons/SSGClose1", CHAN_AUTO)
 		DSSG UC 2

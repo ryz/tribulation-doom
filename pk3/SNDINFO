@@ -82,7 +82,8 @@ weapons/SSGShotDouble2                  TSSGFRD2
 weapons/SSGShotSingle1                  TSSGFRS1
 weapons/SSGShotSingle2                  TSSGFRS2
 weapons/SSGOpen1                        TSSGOPN1
-weapons/SSGReload1                      dsdbload
+weapons/SSGEject1                       TSSGEJC1
+weapons/SSGReload1                      TSSGRLD1
 weapons/SSGClose1                       TSSGCLS1
 
 //Bullet Casing
