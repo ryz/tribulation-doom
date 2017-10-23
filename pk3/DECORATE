@@ -1,7 +1,13 @@
+// Monsters
 #INCLUDE "Actors/monsters.dec"
 #INCLUDE "Actors/monsterSpawner.dec"
-#INCLUDE "doomPlayer.dec"
-#INCLUDE "Weapons.dec"
 
-//SFX
+// Player
+#INCLUDE "Actors/doomPlayer.dec"
+
+// Weapons
+#INCLUDE "Actors/Weapons.dec"
+
+// SFX
 #INCLUDE "Actors/SFX/Casings.dec"
+#INCLUDE "Actors/SFX/Smoke.dec"

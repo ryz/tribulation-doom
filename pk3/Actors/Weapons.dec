@@ -1,4 +1,4 @@
 #INCLUDE "Actors/Weapons/Glock18.dec"
 //#INCLUDE "Actors/Weapons/Minigun.dec"
 #INCLUDE "Actors/Weapons/VulcanMinigun.dec"
-//#INCLUDE "Actors/Weapons/ShotgunV2.dec"
+#INCLUDE "Actors/Weapons/SuperShotgun.dec"
